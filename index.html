@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="description" content="sshd is a secure desktop command center for SSH, SFTP, FTP, RDP, and Kubernetes." />
+    <title>sshd — Your infrastructure, one workspace</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="release-info.js"></script>
+    <script src="downloads.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#" aria-label="sshd home">
+        <span class="logo-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="2.5" y="3.5" width="27" height="25" rx="7" stroke="currentColor" stroke-width="1.8"/><path d="m9.5 11.5 4.3 4.5-4.3 4.5m8.5 0h5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span>sshd<span class="logo-dot">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#security">Security</a>
+        <a href="#downloads">Downloads</a>
+      </nav>
+      <a class="header-cta" href="#downloads">Get sshd <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="overline"><span class="status-light"></span> YOUR REMOTE WORKSPACE</p>
+          <h1>Every machine.<br /><span>One command center.</span></h1>
+          <p class="hero-description">Move between servers, files, desktops, and clusters without losing your flow. sshd brings your remote infrastructure into one focused workspace.</p>
+          <div class="hero-actions">
+            <a class="button button-bright" href="#downloads">Download sshd <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="#features">See how it works <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-proof"><span class="platform-dots"><i>W</i><i>M</i><i>L</i></span><span>Available for Windows, macOS, and Linux</span></div>
+        </div>
+        <div class="product-stage" aria-label="Preview of the sshd desktop workspace">
+          <div class="glow-orb"></div>
+          <div class="app-window">
+            <div class="window-bar"><div class="traffic-lights"><i></i><i></i><i></i></div><span>sshd <b>/</b> Workspace</span><span class="window-action">⌘ K</span></div>
+            <div class="window-body">
+              <aside class="mock-sidebar">
+                <div class="mock-brand"><span class="mini-mark">›_</span> sshd<span class="logo-dot">.</span></div>
+                <div class="mock-workspace"><i>W</i><span><b>Workspace</b><small>Local vault</small></span><span class="mock-chevron">⌄</span></div>
+                <div class="mock-nav-label">CONNECT</div>
+                <div class="mock-nav active"><span>▦</span> Overview</div>
+                <div class="mock-nav"><span>▤</span> Hosts <small>08</small></div>
+                <div class="mock-nav"><span>⌘</span> Sessions <small class="live-count">03</small></div>
+                <div class="mock-nav"><span>◇</span> Kubernetes</div>
+                <div class="mock-nav-label mock-manage">MANAGE</div>
+                <div class="mock-nav"><span>⚿</span> SSH keys</div>
+                <div class="mock-user"><i>R</i><span><b>Local profile</b><small>This device</small></span><span>···</span></div>
+              </aside>
+              <div class="mock-main">
+                <div class="mock-topbar"><span>Workspace　/　<b>Overview</b></span><span class="vault-status"><i></i> Vault locked locally</span></div>
+                <div class="mock-content">
+                  <div class="mock-heading"><div><small>MONDAY, OCTOBER 5</small><h2>Your infrastructure</h2><p>Everything you connect to, ready when you are.</p></div><button>＋ Add host</button></div>
+                  <div class="mock-stats"><div><small>SAVED HOSTS</small><b>08</b><span>across 4 groups</span></div><div><small>ACTIVE SESSIONS</small><b>03</b><span class="stat-green">● Connected now</span></div><div><small>PROTOCOLS</small><b>05</b><span>one workspace</span></div></div>
+                  <div class="mock-lower">
+                    <div class="mock-hosts"><div class="mock-section-title"><b>Recent hosts</b><span>See all →</span></div><div class="mock-host"><i class="host-icon prod">⌘</i><span><b>api-production</b><small>ubuntu@10.24.8.12</small></span><em>SSH</em><button>Connect</button></div><div class="mock-host"><i class="host-icon stage">▣</i><span><b>staging-files</b><small>deploy@10.24.8.21</small></span><em>SFTP</em><button>Connect</button></div><div class="mock-host"><i class="host-icon cluster">◈</i><span><b>eu-west-cluster</b><small>production · Kubernetes</small></span><em>K8S</em><button>Open</button></div></div>
+                    <div class="mock-terminal"><div class="terminal-head"><span><i></i> api-production</span><span>SSH　×</span></div><div class="terminal-content"><p><span>➜</span> ssh ubuntu@10.24.8.12</p><p class="terminal-muted">Last login: Mon Oct 5 09:42:16 2026</p><p><span>ubuntu@api-production</span>:~$ <b>_</b></p></div><div class="terminal-foot"><i></i> Encrypted connection <span>SSH-2.0</span></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card"><span class="floating-icon">↗</span><span><b>Connection secured</b><small>Fingerprint verified</small></span><span class="floating-check">✓</span></div>
+        </div>
+        <div class="hero-bottom"><span>BUILT FOR THE WAY YOU WORK</span><div class="protocol-list"><span><i>⌘</i> SSH</span><span><i>⇄</i> SFTP / FTP</span><span><i>▣</i> RDP</span><span><i>◈</i> Kubernetes</span></div></div>
+      </section>
+
+      <section class="feature-section section-wrap" id="features">
+        <div class="section-intro"><p class="section-kicker">ONE TOOL, LESS CONTEXT SWITCHING</p><h2>Your remote work,<br />all connected.</h2><p>From a quick server check to a file transfer or cluster inspection, your tools live side by side—not in a pile of windows.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card feature-large"><div class="feature-top"><span class="feature-icon blue">⌘</span><span class="feature-label">01 / CONNECT</span></div><h3>SSH that feels at home.</h3><p>Save host profiles, keep sessions organized, and work in an interactive terminal built for your day-to-day.</p><div class="feature-terminal"><div><i></i><i></i><i></i><span>api-production — SSH</span></div><pre><span>ubuntu</span>@api-production:~$ <b>systemctl status nginx</b>
+● nginx.service — A high performance web server
+   Active: <strong>active (running)</strong> since Mon 09:42</pre></div></article>
+          <article class="feature-card"><div class="feature-top"><span class="feature-icon green">⇄</span><span class="feature-label">02 / TRANSFER</span></div><h3>Files, in context.</h3><p>Browse, upload, and download over SFTP or FTPS—right alongside the hosts you already know.</p><div class="file-preview"><span>⌂　/var/www/releases</span><i>deploy-v2.tar.gz <small>24.8 MB</small></i><i>nginx.conf <small>2.1 KB</small></i><i>assets/ <small>Folder</small></i></div></article>
+          <article class="feature-card"><div class="feature-top"><span class="feature-icon orange">▣</span><span class="feature-label">03 / REMOTE DESKTOP</span></div><h3>Windows, in reach.</h3><p>Keep RDP endpoints in your workspace. Open them with the native client on your platform.</p><div class="rdp-preview"><span class="rdp-display">▱</span><span><b>win-build-01</b><small>Remote desktop · 3389</small></span><i>Ready</i></div></article>
+          <article class="feature-card"><div class="feature-top"><span class="feature-icon violet">◈</span><span class="feature-label">04 / OBSERVE</span></div><h3>See your cluster clearly.</h3><p>Inspect Kubernetes pods by namespace with your trusted local kubeconfig. Read-only by design.</p><div class="cluster-preview"><span><i></i> api-7c94d7dbf6-x2fmk</span><b>2/2　Running</b><span><i></i> worker-66b8b87884-pq7w9</span><b>1/1　Running</b></div></article>
+        </div>
+      </section>
+
+      <section class="security-section" id="security">
+        <div class="security-inner section-wrap">
+          <div><p class="section-kicker">PRIVATE BY DEFAULT</p><h2>Your keys stay yours.</h2><p>sshd is designed around a local-first vault. Your host list and credentials stay on your device, protected by the operating system’s secure storage.</p><a href="#downloads" class="text-link">Get started securely <span>→</span></a></div>
+          <div class="security-points">
+            <article><span>01</span><div><b>Credentials encrypted at rest</b><p>Passwords and private keys are protected using the OS credential store.</p></div><i>✓</i></article>
+            <article><span>02</span><div><b>SSH host-key verification</b><p>Review the fingerprint on first connect; changed keys are blocked.</p></div><i>✓</i></article>
+            <article><span>03</span><div><b>Local-first, no account needed</b><p>No hosted credential vault or account sync in this release.</p></div><i>✓</i></article>
+            <article><span>04</span><div><b>Kubernetes inspection is read-only</b><p>sshd lists workloads; it does not apply or modify cluster resources.</p></div><i>✓</i></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="download-section section-wrap" id="downloads">
+        <div class="download-heading"><p class="section-kicker">GET STARTED</p><h2>One workspace. Your platform.</h2><p id="release-status" role="status">Checking the latest sshd release…</p></div>
+        <div class="download-grid">
+          <article class="download-card" data-platform="windows"><div class="os-icon windows-icon">⊞</div><div class="download-info"><h3>Windows</h3><p>Windows 10 or later · x64</p><a class="download-button" data-download="windows" aria-disabled="true">Checking release… <span>↓</span></a></div></article>
+          <article class="download-card" data-platform="macos"><div class="os-icon mac-icon">●</div><div class="download-info"><h3>macOS</h3><p>Architecture listed with each release</p><a class="download-button" data-download="macos" aria-disabled="true">Checking release… <span>↓</span></a></div></article>
+          <article class="download-card" data-platform="linux"><div class="os-icon linux-icon">◉</div><div class="download-info"><h3>Linux</h3><p>AppImage and Debian packages</p><div class="linux-downloads"><a class="download-button" data-download="linux-appimage" aria-disabled="true">AppImage <span>↓</span></a><a class="package-link" data-download="linux-deb" aria-disabled="true">Download .deb</a></div></div></article>
+        </div>
+        <p class="download-footnote">Downloads are published with tagged releases. Always verify you’re downloading from the official sshd release page.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="logo" href="#"><span class="logo-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><rect x="2.5" y="3.5" width="27" height="25" rx="7" stroke="currentColor" stroke-width="1.8"/><path d="m9.5 11.5 4.3 4.5-4.3 4.5m8.5 0h5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>sshd<span class="logo-dot">.</span></span></a><span>Secure remote access, in one workspace.</span><span>© <span id="year"></span> sshd</span></footer>
+  </body>
+</html>
