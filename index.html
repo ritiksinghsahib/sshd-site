@@ -47,27 +47,27 @@
                 <div class="mock-workspace"><i>W</i><span><b>Workspace</b><small>Local vault</small></span><span class="mock-chevron">⌄</span></div>
                 <div class="mock-nav-label">CONNECT</div>
                 <div class="mock-nav active"><span>▦</span> Overview</div>
-                <div class="mock-nav"><span>▤</span> Hosts <small>08</small></div>
-                <div class="mock-nav"><span>⌘</span> Sessions <small class="live-count">03</small></div>
+                <div class="mock-nav"><span>▤</span> Hosts</div>
+                <div class="mock-nav"><span>⌘</span> Sessions</div>
                 <div class="mock-nav"><span>◇</span> Kubernetes</div>
                 <div class="mock-nav-label mock-manage">MANAGE</div>
                 <div class="mock-nav"><span>⚿</span> SSH keys</div>
-                <div class="mock-user"><i>R</i><span><b>Local profile</b><small>This device</small></span><span>···</span></div>
+                <div class="mock-user"><i>L</i><span><b>Local profile</b><small>This device</small></span><span>···</span></div>
               </aside>
               <div class="mock-main">
-                <div class="mock-topbar"><span>Workspace　/　<b>Overview</b></span><span class="vault-status"><i></i> Vault locked locally</span></div>
+                <div class="mock-topbar"><span>Workspace　/　<b>Overview</b></span><span class="vault-status"><i></i> Local profile</span></div>
                 <div class="mock-content">
-                  <div class="mock-heading"><div><small>MONDAY, OCTOBER 5</small><h2>Your infrastructure</h2><p>Everything you connect to, ready when you are.</p></div><button>＋ Add host</button></div>
-                  <div class="mock-stats"><div><small>SAVED HOSTS</small><b>08</b><span>across 4 groups</span></div><div><small>ACTIVE SESSIONS</small><b>03</b><span class="stat-green">● Connected now</span></div><div><small>PROTOCOLS</small><b>05</b><span>one workspace</span></div></div>
+                  <div class="mock-heading"><div><small>YOUR REMOTE WORKSPACE</small><h2>Your infrastructure</h2><p>Start by adding your first connection.</p></div><button>＋ Add host</button></div>
+                  <div class="mock-stats"><div><small>SAVED HOSTS</small><b>00</b><span>No saved hosts</span></div><div><small>ACTIVE SESSIONS</small><b>00</b><span>No active sessions</span></div><div><small>PROTOCOLS</small><b>05</b><span>SSH · SFTP · FTP · RDP · Kubernetes</span></div></div>
                   <div class="mock-lower">
-                    <div class="mock-hosts"><div class="mock-section-title"><b>Recent hosts</b><span>See all →</span></div><div class="mock-host"><i class="host-icon prod">⌘</i><span><b>api-production</b><small>ubuntu@10.24.8.12</small></span><em>SSH</em><button>Connect</button></div><div class="mock-host"><i class="host-icon stage">▣</i><span><b>staging-files</b><small>deploy@10.24.8.21</small></span><em>SFTP</em><button>Connect</button></div><div class="mock-host"><i class="host-icon cluster">◈</i><span><b>eu-west-cluster</b><small>production · Kubernetes</small></span><em>K8S</em><button>Open</button></div></div>
-                    <div class="mock-terminal"><div class="terminal-head"><span><i></i> api-production</span><span>SSH　×</span></div><div class="terminal-content"><p><span>➜</span> ssh ubuntu@10.24.8.12</p><p class="terminal-muted">Last login: Mon Oct 5 09:42:16 2026</p><p><span>ubuntu@api-production</span>:~$ <b>_</b></p></div><div class="terminal-foot"><i></i> Encrypted connection <span>SSH-2.0</span></div></div>
+                    <div class="mock-hosts"><div class="mock-section-title"><b>Hosts</b><span>0 saved</span></div><div class="mock-empty">No saved hosts yet.<br />Add a host to create your first connection.</div></div>
+                    <div class="mock-terminal"><div class="terminal-head"><span>No active session</span><span>SSH</span></div><div class="terminal-content"><p class="terminal-muted">Connect to an SSH host to open a terminal.</p></div><div class="terminal-foot"><i></i> Ready · no session</div></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="floating-card"><span class="floating-icon">↗</span><span><b>Connection secured</b><small>Fingerprint verified</small></span><span class="floating-check">✓</span></div>
+          <div class="floating-card"><span class="floating-icon">⌂</span><span><b>Local-first workspace</b><small>Saved profiles stay on this device</small></span></div>
         </div>
         <div class="hero-bottom"><span>BUILT FOR THE WAY YOU WORK</span><div class="protocol-list"><span><i>⌘</i> SSH</span><span><i>⇄</i> SFTP / FTP</span><span><i>▣</i> RDP</span><span><i>◈</i> Kubernetes</span></div></div>
       </section>
@@ -75,12 +75,10 @@
       <section class="feature-section section-wrap" id="features">
         <div class="section-intro"><p class="section-kicker">ONE TOOL, LESS CONTEXT SWITCHING</p><h2>Your remote work,<br />all connected.</h2><p>From a quick server check to a file transfer or cluster inspection, your tools live side by side—not in a pile of windows.</p></div>
         <div class="feature-grid">
-          <article class="feature-card feature-large"><div class="feature-top"><span class="feature-icon blue">⌘</span><span class="feature-label">01 / CONNECT</span></div><h3>SSH that feels at home.</h3><p>Save host profiles, keep sessions organized, and work in an interactive terminal built for your day-to-day.</p><div class="feature-terminal"><div><i></i><i></i><i></i><span>api-production — SSH</span></div><pre><span>ubuntu</span>@api-production:~$ <b>systemctl status nginx</b>
-● nginx.service — A high performance web server
-   Active: <strong>active (running)</strong> since Mon 09:42</pre></div></article>
-          <article class="feature-card"><div class="feature-top"><span class="feature-icon green">⇄</span><span class="feature-label">02 / TRANSFER</span></div><h3>Files, in context.</h3><p>Browse, upload, and download over SFTP or FTPS—right alongside the hosts you already know.</p><div class="file-preview"><span>⌂　/var/www/releases</span><i>deploy-v2.tar.gz <small>24.8 MB</small></i><i>nginx.conf <small>2.1 KB</small></i><i>assets/ <small>Folder</small></i></div></article>
-          <article class="feature-card"><div class="feature-top"><span class="feature-icon orange">▣</span><span class="feature-label">03 / REMOTE DESKTOP</span></div><h3>Windows, in reach.</h3><p>Keep RDP endpoints in your workspace. Open them with the native client on your platform.</p><div class="rdp-preview"><span class="rdp-display">▱</span><span><b>win-build-01</b><small>Remote desktop · 3389</small></span><i>Ready</i></div></article>
-          <article class="feature-card"><div class="feature-top"><span class="feature-icon violet">◈</span><span class="feature-label">04 / OBSERVE</span></div><h3>See your cluster clearly.</h3><p>Inspect Kubernetes pods by namespace with your trusted local kubeconfig. Read-only by design.</p><div class="cluster-preview"><span><i></i> api-7c94d7dbf6-x2fmk</span><b>2/2　Running</b><span><i></i> worker-66b8b87884-pq7w9</span><b>1/1　Running</b></div></article>
+          <article class="feature-card feature-large"><div class="feature-top"><span class="feature-icon blue">⌘</span><span class="feature-label">01 / CONNECT</span></div><h3>SSH that feels at home.</h3><p>Save host profiles, keep sessions organized, and work in an interactive terminal built for your day-to-day.</p><div class="feature-terminal"><div><i></i><i></i><i></i><span>No active session</span></div><pre>Connect to an SSH host to open a terminal.</pre></div></article>
+          <article class="feature-card"><div class="feature-top"><span class="feature-icon green">⇄</span><span class="feature-label">02 / TRANSFER</span></div><h3>Files, in context.</h3><p>Browse, upload, and download over SFTP or FTPS—right alongside the hosts you already know.</p><div class="file-preview"><span>Remote files</span><i>Connect to an SFTP or FTP host to browse files.</i></div></article>
+          <article class="feature-card"><div class="feature-top"><span class="feature-icon orange">▣</span><span class="feature-label">03 / REMOTE DESKTOP</span></div><h3>Windows, in reach.</h3><p>Keep RDP endpoints in your workspace. Open them with the native client on your platform.</p><div class="rdp-preview"><span class="rdp-display">▱</span><span><b>Windows host</b><small>Add a Windows host to get started.</small></span></div></article>
+          <article class="feature-card"><div class="feature-top"><span class="feature-icon violet">◈</span><span class="feature-label">04 / OBSERVE</span></div><h3>See your cluster clearly.</h3><p>Inspect Kubernetes pods by namespace with your trusted local kubeconfig. Read-only by design.</p><div class="cluster-preview"><span>No cluster selected</span><b>Add a Kubernetes profile to inspect workloads.</b></div></article>
         </div>
       </section>
 
